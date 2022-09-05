@@ -1,5 +1,7 @@
 # SQL_Homework-3
 
+Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden gerçekleştiriniz.
+
 1. country tablosunda bulunan country sütunundaki ülke isimlerinden 'A' karakteri ile başlayıp 'a' karakteri ile sonlananları sıralayınız.
 
         SELECT country FROM country WHERE country LIKE 'A%a';
@@ -17,4 +19,4 @@
 
         SELECT * FROM film WHERE title LIKE 'C%' AND length > 90 AND rental_rate = 2.99;
         
- ## patika.dev linki: https://app.patika.dev/melikehafsa
+ ### patika.dev linki: https://app.patika.dev/melikehafsa
